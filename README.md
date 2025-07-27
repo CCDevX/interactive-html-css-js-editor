@@ -44,11 +44,16 @@ npm run dev
 
 Visit http://localhost:5173
 
+---
+
 ## Compilation pour la production
 
 ```bash
 npm run build
 ```
+
+---
+
 ## Auteur
 Développé par CCDevX
 
