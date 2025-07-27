@@ -3,7 +3,7 @@
 Un éditeur de code moderne, responsive et accessible pour écrire et prévisualiser du HTML, du CSS et du JavaScript en temps réel.  
 Développé entièrement en JavaScript natif avec une architecture modulaire.
 
-**Démo en ligne :** [[[https://ccdevx.github.io/interactive-html-css-js-editor/](https://html-css-js-editor-ccdevx.netlify.app/)]([https://html-css-js-editor-ccdevx.netlify.app/](https://html-css-js-editor-ccdevx.netlify.app/))]([https://ccdevx.github.io/interactive-html-css-js-editor/](https://html-css-js-editor-ccdevx.netlify.app/))
+**Démo en ligne :** https://html-css-js-editor-ccdevx.netlify.app/
 
 ---
 
