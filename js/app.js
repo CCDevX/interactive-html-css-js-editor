@@ -1,13 +1,23 @@
-function run() {
-  console.log("enter to run function");
-  let htmlCode = document.getElementById("html-code").value;
-  let cssCode = document.getElementById("css-code").value;
-  let jsCode = document.getElementById("js-code").value;
-  let output = document.getElementById("output");
-  console.log(htmlCode);
-  output.contentDocument.body.innerHTML =
-    htmlCode + "<style>" + cssCode + "</style>";
-  output.contentWindow.eval(jsCode);
-}
+import { CodeEditor } from "./code-editor.js";
 
-window.run = run;
+// Initialisation de l'application
+document.addEventListener("DOMContentLoaded", () => {
+  const editor = new CodeEditor();
+
+  editor.console.log("Éditeur prêt - Commencez à coder !");
+
+  // Exposition globale pour compatibilité
+  window.run = () => editor.run();
+  window.codeEditor = editor;
+
+  // Raccourcis clavier globaux
+  document.addEventListener("keydown", (e) => {
+    // F12 pour toggle console détails
+    if (e.key === "F12") {
+      e.preventDefault();
+      editor.console.toggle?.click();
+    }
+  });
+
+  console.log("Live Code Editor Pro initialisé avec succès!");
+});

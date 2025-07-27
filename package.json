@@ -14,5 +14,17 @@
   "devDependencies": {
     "vite": "^6.1.0"
   },
-  "dependencies": {}
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CCDevX/interactive-html-css-js-editor.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/CCDevX/interactive-html-css-js-editor/issues"
+  },
+  "homepage": "https://github.com/CCDevX/interactive-html-css-js-editor#readme",
+  "dependencies": {
+    "file-saver": "^2.0.5",
+    "jszip": "^3.10.1"
+  }
 }
